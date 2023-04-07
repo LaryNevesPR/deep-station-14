@@ -50,6 +50,7 @@
   - ResearchDirector
   - Quartermaster
   - ChiefJustice # DeltaV - chief justice is in command staff
+  - Blueshield
   primary: false
   weight: 100
 
