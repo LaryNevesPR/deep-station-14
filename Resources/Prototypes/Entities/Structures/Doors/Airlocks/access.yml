@@ -11,16 +11,6 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockLawyerLocked
-  suffix: Lawyer, Locked
-  components:
-  - type: AccessReader
-    access: [["Lawyer"]]
-  - type: Wires
-    layoutId: AirlockService
-
-- type: entity
-  parent: Airlock
   id: AirlockTheatreLocked
   suffix: Theatre, Locked
   components:
@@ -30,7 +20,17 @@
     layoutId: AirlockService
 
 - type: entity
-  parent: AirlockServiceLocked
+  parent: AirlockJustice # DeltaV - Lawyer is in Justice Dept
+  id: AirlockLawyerLocked
+  suffix: Lawyer, Locked
+  components:
+  - type: AccessReader
+    access: [["Lawyer"]]
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: AirlockScience # DeltaV - Chapel is in Epistemics
   id: AirlockChapelLocked
   suffix: Chapel, Locked
   components:
@@ -454,8 +454,13 @@
     layoutId: AirlockService
 
 - type: entity
+<<<<<<< HEAD
   parent: AirlockGlass
   id: AirlockLawyerGlassLocked
+=======
+  parent: AirlockJusticeGlass
+  id: AirlockLawyerGlassLocked # DeltaV - Lawyer is in Justice Dept
+>>>>>>> c82affb78b (Adds the Justice Department  (#660))
   suffix: Lawyer, Locked
   components:
   - type: AccessReader
