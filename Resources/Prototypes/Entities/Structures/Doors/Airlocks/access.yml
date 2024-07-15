@@ -454,13 +454,8 @@
     layoutId: AirlockService
 
 - type: entity
-<<<<<<< HEAD
-  parent: AirlockGlass
-  id: AirlockLawyerGlassLocked
-=======
   parent: AirlockJusticeGlass
   id: AirlockLawyerGlassLocked # DeltaV - Lawyer is in Justice Dept
->>>>>>> c82affb78b (Adds the Justice Department  (#660))
   suffix: Lawyer, Locked
   components:
   - type: AccessReader

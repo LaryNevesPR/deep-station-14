@@ -11,9 +11,9 @@
     - type: Item
       size: Small
     - type: Clickable
-    - type: EmitSoundOnInteractUsing
-      sound:
-        path: /Audio/DeltaV/Items/gavel.ogg
-      whitelist:
-        tags:
-          - Gavel
+#    - type: EmitSoundOnInteractUsing
+#      sound:
+#        path: /Audio/DeltaV/Items/gavel.ogg
+#      whitelist:
+#        tags:
+#          - Gavel
