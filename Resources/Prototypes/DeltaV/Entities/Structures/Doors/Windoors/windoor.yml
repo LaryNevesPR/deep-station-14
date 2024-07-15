@@ -27,33 +27,30 @@
   id: WindoorSecureChiefJusticeLocked
   suffix: ChiefJustice, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsChiefJustice ]
+  - type: AccessReader
+     access: [["ChiefJustice"]]
 
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureJusticeLocked
   suffix: Justice, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsJustice ]
+  - type: AccessReader
+     access: [["Justice"]]
 
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureProsecutorLocked
   suffix: Prosecutor, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsProsecutor ]
+  - type: AccessReader
+     access: [["Prosecutor"]]
       
 - type: entity
   parent: WindoorSecure
   id: WindoorSecureLawyerLocked
   suffix: Lawyer, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsLawyer ]
+  - type: AccessReader
+     access: [["Lawyer"]]
+
