@@ -21,7 +21,7 @@
   suffix: Chief Justice, Locked
   components:
   - type: AccessReader
-     access: [["ChiefJustice"]]
+    access: [["ChiefJustice"]]
 
 - type: entity
   parent: AirlockCommandGlass
@@ -29,7 +29,7 @@
   suffix: ChiefJustice, Locked
   components:
   - type: AccessReader
-     access: [["ChiefJustice"]]
+    access: [["ChiefJustice"]]
 
 - type: entity
   parent: AirlockJustice
@@ -37,8 +37,7 @@
   suffix: Justice, Locked
   components:
   - type: AccessReader
-     access: [["Justice"]]
-
+    access: [["Justice"]]
 
 - type: entity
   parent: AirlockJusticeGlass
@@ -46,8 +45,7 @@
   suffix: Justice, Locked
   components:
   - type: AccessReader
-     access: [["Justice"]]
-
+    access: [["Justice"]]
 
 - type: entity
   parent: AirlockJustice
@@ -55,7 +53,7 @@
   suffix: Prosecutor, Locked
   components:
   - type: AccessReader
-     access: [["Prosecutor"]]
+    access: [["Prosecutor"]]
 
 - type: entity
   parent: AirlockJusticeGlass
@@ -63,25 +61,23 @@
   suffix: Prosecutor, Locked
   components:
   - type: AccessReader
-     access: [["Prosecutor"]]
+    access: [["Prosecutor"]]
 
 - type: entity
   parent: AirlockJustice
   id: AirlockClerkLocked
   suffix: Clerk, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsClerk ]
+  - type: AccessReader
+    access: [["Clerk"]]
 
 - type: entity
   parent: AirlockJusticeGlass
   id: AirlockClerkGlassLocked
   suffix: Clerk, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsClerk ]
+  - type: AccessReader
+    access: [["Clerk"]]
 
 # Maintenance
 - type: entity
@@ -90,7 +86,7 @@
   suffix: ChiefJustice, Locked
   components:
   - type: AccessReader
-     access: [["ChiefJustice"]]
+    access: [["ChiefJustice"]]
 
 - type: entity
   parent: AirlockMaint
@@ -98,7 +94,7 @@
   suffix: Justice, Locked
   components:
   - type: AccessReader
-     access: [["Justice"]]
+    access: [["Justice"]]
 
 - type: entity
   parent: AirlockMaint
@@ -106,16 +102,15 @@
   suffix: Prosecutor, Locked
   components:
   - type: AccessReader
-     access: [["Prosecutor"]]
+    access: [["Prosecutor"]]
 
 - type: entity
   parent: AirlockMaint
   id: AirlockMaintClerkLocked
   suffix: Clerk, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsClerk ]
+  - type: AccessReader
+    access: [["Clerk"]]
 
 - type: entity
   parent: AirlockSecurity
@@ -357,4 +352,4 @@
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Security"], ["Lawyer"]]
+    access: [["Security"], ["Justice"]]

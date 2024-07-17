@@ -300,7 +300,7 @@
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Security"], ["Lawyer"]]
+    access: [["Security"], ["Justice"]]
 
 - type: entity
   parent: WindoorSecure

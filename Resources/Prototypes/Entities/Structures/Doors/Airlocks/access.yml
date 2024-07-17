@@ -408,7 +408,7 @@
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Security"], ["Lawyer"]]
+    access: [["Security"], ["Justice"]]
   - type: Wires
     layoutId: AirlockSecurity
 
@@ -811,7 +811,7 @@
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Security"], ["Lawyer"]]
+    access: [["Security"], ["Justice"]]
   - type: Wires
     layoutId: AirlockSecurity
 
