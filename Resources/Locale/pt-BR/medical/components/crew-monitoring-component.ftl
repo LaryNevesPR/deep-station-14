@@ -1,7 +1,4 @@
-﻿﻿## UI
-
-crew-monitoring-user-interface-title = Console de Monitoramento da Tripulação
-
+﻿﻿crew-monitoring-user-interface-title = Console de Monitoramento da Tripulação
 crew-monitoring-user-interface-name = Nome
 crew-monitoring-user-interface-job = Trabalho
 crew-monitoring-user-interface-status = Status

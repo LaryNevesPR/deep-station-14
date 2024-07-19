@@ -1,6 +1,4 @@
-﻿﻿## Damage command loc.
-
-damage-command-description = Adicionar ou remover danos a uma entidade.
+﻿﻿damage-command-description = Adicionar ou remover danos a uma entidade.
 damage-command-help = Uso: {$command} <type/group> <amount> [ignoreResistances] [uid]
 
 damage-command-arg-type = <damage type or group>
