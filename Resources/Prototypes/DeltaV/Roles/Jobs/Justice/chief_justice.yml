@@ -45,17 +45,15 @@
 - type: startingGear
   id: CJGear
   equipment:
-    #jumpsuit: ClothingUniformJumpsuitChiefJustice
-    #back: ClothingBackpackFilled # TODO- make Justice department bags
-    #shoes: ClothingShoesLeather
-    #head: ClothingHeadHatCJToque
-    #outerClothing: ClothingOuterChiefJustice
+    jumpsuit: ClothingUniformJumpsuitChiefJustice
+    back: ClothingBackpackFilled # TODO- make Justice department bags
+    shoes: ClothingShoesLeather
+    head: ClothingHeadHatCJToque
     id: ChiefJusticePDA
     ears: ClothingHeadsetAltJustice
-    #gloves: ClothingHandsGlovesColorWhite
-    # Todo - pocket1: Gavel
-    #innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
-    #satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags
-    #duffelbag: ClothingBackpackDuffelFilled
+    pocket1: Gavel
+  innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
+  satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags
+  duffelbag: ClothingBackpackDuffelFilled
 
 

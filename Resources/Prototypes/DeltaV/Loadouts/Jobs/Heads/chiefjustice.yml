@@ -1,0 +1,46 @@
+- type: loadout
+  id: LoadoutCommandCJJumpsuitFormal
+  category: Jobs
+  cost: 3
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpsuitChiefJusticeFormal
+
+- type: loadout
+  id: LoadoutCommandCJJumpsuitWhite
+  category: Jobs
+  cost: 3
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingUniformJumpsuitChiefJusticeWhite
+
+- type: loadout
+  id: LoadoutCommandCJCloak
+  category: Jobs
+  cost: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingNeckCloakCJ
+
+- type: loadout
+  id: LoadoutCommandCJOuter
+  category: Jobs
+  cost: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - ClothingOuterChiefJustice
+

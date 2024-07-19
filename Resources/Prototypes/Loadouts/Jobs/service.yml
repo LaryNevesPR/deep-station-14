@@ -63,6 +63,7 @@
     - !type:CharacterJobRequirement
      jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpsuitLawyerBlue
 
@@ -75,6 +76,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpskirtLawyerBlue
 
@@ -87,6 +89,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpsuitLawyerRed
 
@@ -99,6 +102,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpskirtLawyerRed
 
@@ -111,6 +115,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpsuitLawyerPurple
 
@@ -123,6 +128,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpskirtLawyerPurple
 
@@ -135,6 +141,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpsuitLawyerGood
 
@@ -147,6 +154,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Lawyer
+        - Prosecutor
   items:
     - ClothingUniformJumpskirtLawyerGood
 

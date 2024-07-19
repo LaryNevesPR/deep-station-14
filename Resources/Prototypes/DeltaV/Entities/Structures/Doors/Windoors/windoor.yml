@@ -28,7 +28,7 @@
   suffix: ChiefJustice, Locked
   components:
   - type: AccessReader
-     access: [["ChiefJustice"]]
+    access: [["ChiefJustice"]]
 
 - type: entity
   parent: WindoorSecure
@@ -36,7 +36,7 @@
   suffix: Justice, Locked
   components:
   - type: AccessReader
-     access: [["Justice"]]
+    access: [["Justice"]]
 
 - type: entity
   parent: WindoorSecure
@@ -44,7 +44,7 @@
   suffix: Prosecutor, Locked
   components:
   - type: AccessReader
-     access: [["Prosecutor"]]
+    access: [["Prosecutor"]]
 
 - type: entity
   parent: WindoorSecure
@@ -60,5 +60,5 @@
   suffix: Lawyer, Locked
   components:
   - type: AccessReader
-     access: [["Lawyer"]]
+    access: [["Lawyer"]]
 
