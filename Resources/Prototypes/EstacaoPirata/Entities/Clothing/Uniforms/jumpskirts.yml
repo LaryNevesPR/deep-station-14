@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueshield
-  name: bsJumpSkirtName
-  description: bsJumpSkirtDesc
+  name: Saia do Blueshield
+  description: Uma saia simples azul com uma braçadeira Amarela escrita Blueshield.
   components:
   - type: Sprite
     sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/blueshield.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGrayBlueshield
-  name: bsGrayJumpSkirtName
-  description: bsGrayJumpSkirtDesc
+  name: Saia cinza do Blueshield
+  description: Um uniforme curto, cinza com manchas azuis. Para uma Blueshield feminina.
   components:
   - type: Sprite
     sprite: EstacaoPirata/Clothing/Uniforms/Jumpskirt/grayBlueshield.rsi

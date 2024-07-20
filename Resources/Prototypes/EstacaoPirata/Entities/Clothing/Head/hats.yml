@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGrayBeretBlueshield
-  name: bsGrayberetName
-  description: bsGrayberetDesc
+  name: Boina cinza do Blueshield
+  description: Uma Boina cinza para indicar sua superioridade como guarda costas.
   components:
   - type: Sprite
     sprite: EstacaoPirata/Clothing/Head/Hats/navyCentcomBeret.rsi

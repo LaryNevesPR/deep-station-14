@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingOuterStorageBase]
   id: ClothingOuterCoatBlueshield
-  name: BsCoatName
-  description: BsCoatDesc
+  name: jaqueta do Blueshield
+  description:  Uma jaqueta armadurada para aqueles que queiram uma presença imponente de um Blueshield.
   components:
   - type: Sprite
     sprite: EstacaoPirata/Clothing/OuterClothing/Coats/coatBlueshield.rsi
