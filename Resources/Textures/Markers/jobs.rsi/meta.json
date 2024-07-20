@@ -14,16 +14,13 @@
       "name": "ai"
     },
     {
-        "name": "passenger"
-    },
-    {
-        "name": "blueshield"
-    },
-    {
       "name": "atmospherics"
     },
     {
       "name": "bartender"
+    },
+    {
+      "name":"blueshield"
     },
     {
       "name": "botanist"
