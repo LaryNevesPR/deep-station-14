@@ -99,3 +99,4 @@ JobTechnicalAssistant = Technical Assistant
 JobVisitor = Visitor
 JobWarden = Warden
 JobZookeeper = Zookeeper
+job-name-blueshield = Blueshield

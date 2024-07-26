@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackBlueshield
+  name: Mochila do Blueshield
+  description: Uma mochila robusta entregue aos melhores da Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Backpacks/blueshield.rsi

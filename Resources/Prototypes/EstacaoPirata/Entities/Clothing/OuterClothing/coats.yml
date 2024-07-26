@@ -1,0 +1,19 @@
+- type: entity
+  parent: [ClothingOuterArmorBasic, ClothingOuterStorageBase]
+  id: ClothingOuterCoatBlueshield
+  name: jaqueta do Blueshield
+  description:  Uma jaqueta armadurada para aqueles que queiram uma presença imponente de um Blueshield.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/OuterClothing/Coats/coatBlueshield.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/OuterClothing/Coats/coatBlueshield.rsi
+  - type: Armor #same as BS armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.5
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

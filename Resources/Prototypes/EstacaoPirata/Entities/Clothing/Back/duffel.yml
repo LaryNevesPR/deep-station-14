@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBlueshield
+  name: Mala do Blueshield
+  description: Uma mala robusta entregue aos melhores da Nanotrasen
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Duffels/blueshield.rsi

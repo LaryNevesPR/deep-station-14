@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  name: Macacão de Blueshield
+  description: Um uniforme simples azul com uma braçadeira Amarela escrita Blueshield.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi    
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGrayBlueshield
+  name: bsGrayJumpsuitName
+  description: bsGrayJumpsuitDesc
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/grayBlueshield.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/grayBlueshield.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBSFormal
+  name: Blushield's formal suit
+  description: A suit for special occasions.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/formalBlueshield.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Uniforms/Jumpsuit/formalBlueshield.rsi

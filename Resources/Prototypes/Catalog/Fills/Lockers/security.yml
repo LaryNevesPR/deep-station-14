@@ -207,6 +207,7 @@
     contents:
       - id: ClothingHeadHelmetBombSuit
       - id: ClothingOuterSuitBomb
+<<<<<<< HEAD
       # NT is cheap, what can you do...
       - id: Wirecutter
         prob: 0.9
@@ -307,3 +308,5 @@
     contents:
     - id: WeaponLaserCarbine
       amount: 3
+      - id: ClothingMaskGas
+
