@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBlueshield
+  name: Bolsa do Blueshield
+  description: Uma bolsa robusta entregue aos melhores da Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Satchels/blueshield.rsi

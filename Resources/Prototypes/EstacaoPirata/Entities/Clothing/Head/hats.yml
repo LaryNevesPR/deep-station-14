@@ -1,0 +1,23 @@
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: Boina azul do Blueshield
+  description: Uma Boina azul para indicar sua superioridade.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGrayBeretBlueshield
+  name: Boina cinza do Blueshield
+  description: Uma Boina cinza para indicar sua superioridade como guarda costas.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Head/Hats/navyCentcomBeret.rsi
+  - type: Clothing
+    sprite: EstacaoPirata/Clothing/Head/Hats/navyCentcomBeret.rsi

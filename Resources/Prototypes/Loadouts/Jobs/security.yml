@@ -351,6 +351,7 @@
         - SecurityCadet
         - Warden
         - HeadOfSecurity
+        - Blueshield
   items:
     - ClothingBeltSecurityWebbingFilled
 
