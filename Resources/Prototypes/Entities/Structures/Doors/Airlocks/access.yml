@@ -376,16 +376,10 @@
   id: AirlockSecurityLawyerLocked
   suffix: Security/Lawyer, Locked
   components:
-<<<<<<< HEAD
   - type: AccessReader
     access: [["Security"], ["Justice"]]
   - type: Wires
     layoutId: AirlockSecurity
-=======
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsSecurityLawyer ]
->>>>>>> 3560f0c1b094ed1c4e780ee01de9773f27cb690e
 
 - type: entity
   parent: AirlockSecurity
@@ -429,13 +423,8 @@
     layoutId: AirlockService
 
 - type: entity
-<<<<<<< HEAD
   parent: AirlockJusticeGlass
   id: AirlockLawyerGlassLocked # DeltaV - Lawyer is in Justice Dept
-=======
-  parent: AirlockServiceGlassLocked
-  id: AirlockLawyerGlassLocked
->>>>>>> 3560f0c1b094ed1c4e780ee01de9773f27cb690e
   suffix: Lawyer, Locked
   components:
   - type: ContainerFill
@@ -761,16 +750,10 @@
   id: AirlockSecurityLawyerGlassLocked
   suffix: Security/Lawyer, Locked
   components:
-<<<<<<< HEAD
   - type: AccessReader
     access: [["Security"], ["Justice"]]
   - type: Wires
     layoutId: AirlockSecurity
-=======
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsSecurityLawyer ]
->>>>>>> 3560f0c1b094ed1c4e780ee01de9773f27cb690e
 
 - type: entity
   parent: AirlockSecurityGlass
